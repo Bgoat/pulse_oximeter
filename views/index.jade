@@ -1,0 +1,15 @@
+extends layout
+
+block content
+  #container
+    h1= title
+    | by 
+    a(href="http://espuma.co") Espuma Lab
+  
+    #pulse
+      #heart
+        .label BPM &hearts;
+        .value 0
+      #oxygen
+        .label %SpO2
+        .value 0

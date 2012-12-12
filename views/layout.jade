@@ -1,0 +1,12 @@
+doctype 5
+html
+  head
+    title Espuma Lab :: #{title}
+    link(href='http://fonts.googleapis.com/css?family=Keania+One', rel='stylesheet', type='text/css')
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    block content
+
+    script(src='/socket.io/socket.io.js')
+    script(src='/javascripts/zepto.min.js')
+    script(src='/javascripts/pulse.js')
